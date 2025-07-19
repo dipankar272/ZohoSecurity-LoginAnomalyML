@@ -1,0 +1,7 @@
+# Exclude build artifacts and local configs
+bin/
+obj/
+*.user
+*.suo
+*.dockerignore
+*.gitignore

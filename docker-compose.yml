@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  anomaly-detector:
+    build: .
+    volumes:
+      - ./Models:/data/models
+      - ./Config:/app/Config
+      - ./data/input:/data/input
+    environment:
+      - ModelSaveDirectory=/data/models
+      - ModelFilePrefix=prod
+    command: ["predict", "/data/input/corrected.csv", "1"]
