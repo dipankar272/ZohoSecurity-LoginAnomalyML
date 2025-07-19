@@ -1,0 +1,1 @@
+{"schemaVersion":2,"mediaType":"application/vnd.oci.image.index.v1+json","manifests":[{"mediaType":"application/vnd.oci.image.index.v1+json","digest":"sha256:843aa319f3c771525a7821d36e522625253d998be7def518bed1c1aacfd34970","size":856,"annotations":{"io.containerd.image.name":"docker.io/library/anomaly-detector:latest","org.opencontainers.image.ref.name":"latest"}}]}
